@@ -10,7 +10,7 @@ soup = BeautifulSoup(resposta.text, "html.parser")
 
 livros = soup.find_all("article", class_="product_pod")
 
-taxa = 5.10
+taxa = 5.10 # transformei libra em real
 
 nomes = []
 precos = []
